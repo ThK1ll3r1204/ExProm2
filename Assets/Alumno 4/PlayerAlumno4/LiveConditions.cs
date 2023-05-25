@@ -1,45 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class LiveConditions : MonoBehaviour
 {
-    [SerializeField] float _plife;
-    
-
-
-    void Start()
-    {
-        _plife = 20f;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void ChangeLife(float value)
-    {
-        _plife += value;
-
-        if(_plife <= 0)
-        {
-            //Escena de Derrota
-        }
-
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            ChangeLife(-2);
+            //Escena de derrota
         }
 
         if (collision.gameObject.CompareTag("EnemyBullet"))
         {
-            ChangeLife(-1);
+            //Escena de Derrota
+            Debug.Log("MUERE");
         }
 
         if (collision.gameObject.CompareTag("Win"))
