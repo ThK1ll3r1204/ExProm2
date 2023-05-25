@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Alumno 5/Alumno 5.unity
     guid: 23ca4205c7567304cb58731ed121976c
+  - enabled: 1
+    path: Assets/Alumno 2/Creditos.unity
+    guid: 5475292b9249b43fe93b74f29e82c459
+  - enabled: 1
+    path: Assets/Alumno 2/Derrota.unity
+    guid: 19438e25bb339494fa5eca8c8fdd9533
+  - enabled: 1
+    path: Assets/Alumno 2/Victoria.unity
+    guid: 639b18082490f437ba58fa27dd612518
   m_configObjects: {}
