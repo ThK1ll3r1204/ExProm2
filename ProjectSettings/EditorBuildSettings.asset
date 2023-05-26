@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: "Assets/Alumno 1/Men\xFA.unity"
+    path: Assets/Alumno 1/Menu.unity
     guid: 436e7fdfeff1af7488ef1c5a1a8e1816
   - enabled: 1
     path: Assets/Alumno 1/Creditos.unity
@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Alumno 5/Alumno 5.unity
     guid: 23ca4205c7567304cb58731ed121976c
   - enabled: 1
-    path: Assets/Alumno 2/Creditos.unity
+    path: Assets/Alumno 2/CreditosOG.unity
     guid: 5475292b9249b43fe93b74f29e82c459
   - enabled: 1
     path: Assets/Alumno 2/Derrota.unity

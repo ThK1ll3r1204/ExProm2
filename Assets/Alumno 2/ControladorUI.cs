@@ -44,6 +44,6 @@ public class ControladorUI : MonoBehaviour
 
     public void BackToMenu()
     {
-        SceneManager.LoadScene("Menú");
+        SceneManager.LoadScene("Menu");
     }
 }
