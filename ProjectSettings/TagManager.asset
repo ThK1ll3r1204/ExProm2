@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
-  tags:
-  - Undefined
-  - EB
-=======
   tags: []
->>>>>>> 124199eff60e02fc01673d0fc86aec2a9d0e304e
   layers:
   - Default
   - TransparentFX
