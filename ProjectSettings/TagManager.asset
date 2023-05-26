@@ -4,26 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-  - EnemyBullet
+  - Undefined
   - EB
-=======
-  - Enemy
-  - EnemyBullet
->>>>>>> 964c8bc2794dd21c9ad7f020a61c7c3804f295d0
-=======
-  - PlayerBullet
-  - Walls
->>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - 
   - Water
   - UI
-  - EnemyBullet
+  - 
   - 
   - 
   - 
@@ -52,13 +42,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Clouds
-    uniqueID: 2788657595
-    locked: 0
-  - name: Enemies
-    uniqueID: 3196203701
-    locked: 0
-  - name: Player
-    uniqueID: 732892785
     locked: 0
