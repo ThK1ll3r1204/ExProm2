@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class ContadoresYPantallas : MonoBehaviour
+public class ControladorUI : MonoBehaviour
 {
     public Text loseText;
     public Text creditsText;
@@ -44,6 +44,6 @@ public class ContadoresYPantallas : MonoBehaviour
 
     public void BackToMenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Menú");
     }
 }
