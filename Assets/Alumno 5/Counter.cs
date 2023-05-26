@@ -20,7 +20,10 @@ public class Counter : MonoBehaviour
         if (other.CompareTag("EB"))
         {
             bullets--;
-            SceneManager.LoadScene("Victoria");
+            if(bullets <= 0)
+            {
+                SceneManager.LoadScene("Victoria");
+            }
         }
     }
 }
